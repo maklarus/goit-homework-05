@@ -488,11 +488,11 @@ address {
 }
 
 .form-text {
+  margin-bottom: 16px;
+
   color: #f4f4fd;
   line-height: 1.5;
   letter-spacing: 0.32px;
-
-  margin-bottom: 16px;
 }
 
 .input-subscribe {
@@ -621,12 +621,6 @@ address {
   margin-bottom: 16px;
 }
 
-.form-user-info {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
 /* .form-user-info:focus-within {
   border-color: #4d5ae5;
 } */
@@ -634,14 +628,12 @@ address {
 .user-info-label {
   color: #8e8f99;
   font-size: 12px;
-  line-height: 1.2;
-  letter-spacing: 0.48px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
 }
 
 .user-info-input-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  margin-bottom: 8px;
 }
 
 .user-info-input {
